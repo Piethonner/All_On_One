@@ -1,0 +1,9 @@
+## I wish I had friends to use it with ##
+import random
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+people = len(names)
+name = random.randint(0,people-1)
+payer = names[name]
+print(f"{payer} is going to buy the meal today!")
+## Ende ##
